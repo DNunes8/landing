@@ -1,0 +1,21 @@
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+    padding-top: 35px;
+  }
+
+.card-category {
+    border-radius: 5%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-position: center;
+}
+
+.card-category h2 {
+    color: white;
+    font-family: Open Sans;
+    height: 200px;
+    padding-bottom: 30px;
+}
